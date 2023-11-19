@@ -19,8 +19,6 @@ npm run build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 #
 
-<!DOCTYPE html>
-<html>
 
 <head>
     <meta charset="UTF-8">
@@ -69,5 +67,3 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     <p>This App allows users to evaluate written texts both auditorily and numerically. With its user-friendly
         interface and key features, it enhances the efficiency of text editing and analysis processes.</p>
 </body>
-
-</html>
