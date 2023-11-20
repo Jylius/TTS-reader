@@ -15,10 +15,6 @@ export default {
 </script>
 
 <style>
-/* Gerekirse global stil tanımlayabilirsiniz */
-</style>
-
-<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
