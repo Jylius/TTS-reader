@@ -1,18 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <TTS_reader />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TTS_reader from "@/components/TTS-reader.vue";
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    TTS_reader,
+  },
+};
 </script>
+
+<style>
+/* Gerekirse global stil tanımlayabilirsiniz */
+</style>
 
 <style>
 #app {
