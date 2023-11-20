@@ -67,10 +67,8 @@ export default {
     watch: {
     isPlaying(value) {
       if (value) {
-        // Enable dark theme when playing audio
         this.isDarkTheme = true;
       } else {
-        // Disable dark theme when audio stops
         this.isDarkTheme = false;
       }
     },
