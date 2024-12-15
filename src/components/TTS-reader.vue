@@ -1,5 +1,5 @@
 <template>
-  <div class="tts-reader-container" :class="{ 'dark-theme': isDarkTheme }">
+  <div class="tts-reader-container">
     <h3>TTS Reader</h3>
     <textarea v-model="text" rows="15" cols="80"  placeholder="Enter text here..."></textarea>
     <br />
@@ -25,7 +25,6 @@ export default {
       text: '',
       audioSource: '',
       isPlaying: false,
-      isDarkTheme: false,
     };
   },
     methods: {
@@ -54,7 +53,7 @@ export default {
           audio.load();
           audio.play();
   
-          // Reset the isPlaying flag after the audio finishes playing
+          
           audio.addEventListener('ended', () => {
             this.isPlaying = false;
           });
